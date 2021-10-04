@@ -109,6 +109,9 @@ img{
 	color: #fff;
 	margin: 20px 0;
 }
+.mobile-view{
+	display: none;
+}
 .banner-inner p{
 	font-size: 18px;
 	font-weight: 400;
