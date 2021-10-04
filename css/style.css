@@ -335,6 +335,11 @@ img{
  	transition: .3s ease-in;
  	border-bottom: 1px solid #e0e0e0;
 }
+.pricing-inner .card-body h5 sup{
+	font-size: 30px;
+  top: -25px;
+}
+    
 
 .pricing-inner .card-body h5 p{
  	font-size: 18px;
@@ -387,6 +392,7 @@ img{
 	width: 100%;
  	background: #ededed;
  	padding-top: 70px;
+ 	z-index: 2;
 }
 .contact-item{
  	margin-top: 60px;
@@ -409,8 +415,7 @@ img{
  	background: #000;
  	padding: 50px 70px;
  	margin-top: 50px;
- 	margin-bottom: -50px;
- 	z-index: 1;
+ 	z-index: 999999;
 }
 
 .main-form .form-control{
@@ -453,7 +458,9 @@ img{
 
 .map{
 	width: 100%;
-	z-index: 9;
+	z-index: 1;
+}
+.map iframe{
 }
 
 /*footer section*/

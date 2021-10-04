@@ -1,0 +1,155 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /*** css code start ***/
+  /******************Navbar media query start*/
+  .navbar-light .navbar-toggler{
+    background: #fff;
+  }
+  .navbar-toggler-icon{
+    width: 23px;
+    height: 23px;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    text-align: center;
+  }
+  /******************Navbar media query end*/
+  /******************banner media query start*/
+  .banner-inner{
+    padding: 50px 0;
+  }
+  .banner-inner h4{
+    font-size: 12px;
+  }
+  .banner-inner h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .banner-inner p{
+    font-size: 14px;
+  }
+  .btn-div .btn-info{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 25px;
+  }
+  .btn-div .btn-primary{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 25px;
+    margin-left: 0;
+    margin-right: 130px;
+    margin-top: 10px;
+  }
+  /******************banner media query end*/
+
+  /******************features media query start*/
+  .myh4{
+    font-size: 12px;
+  }
+  .myh2{
+    font-size: 29px;
+    padding-bottom: 20px;
+  }
+  .feature-inner{
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .feature-img{
+    margin-bottom: 15px;
+  }
+  .feature-inner h3{
+    font-size: 22px;
+  }
+  .feature-inner p{
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  /******************features media query start*/
+  /******************device media query start*/
+  .device-inner p{
+    font-size: 16px;
+  }
+  .device-inner h6{
+    font-size: 16px;
+  }
+
+  /******************device media query end*/
+  /******************customize media query start*/
+
+  .device-inner .section-top{
+    padding: 0;
+  }
+
+  /******************customize media query end*/
+  /******************testimonial media query start*/
+
+  .testimonial .owl-carousel .item {
+    padding: 20px 0px;
+  }
+  .testimonial .owl-carousel .item h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .testimonial .owl-carousel .item .align-items-center {
+    padding: 10px;
+  }
+  /******************testimonial media query end*/
+
+  /******************pricing media query start*/
+  .pricing-inner .card-header h2{
+    font-size: 22px;
+  }
+  .pricing-inner .card-body h5{
+    font-size: 45px;
+  }
+  /******************form media query start*/
+  .eye-catcher-inner .btn-div {
+    margin-top: 20px;
+  }
+  .eye-catcher-inner .btn-div .btn-primary{
+    margin-top: 0px;
+  }
+  .main-form{
+    padding: 50px 0;
+  }
+  .form-group {
+    text-align: left;
+  }
+
+  /******************form media query end*/
+
+
+
+  /*** css code start ***/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* css code start**************/
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+
+
